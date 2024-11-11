@@ -6,3 +6,11 @@ To activate the virtual environment, run the activate file in scripts folder of 
 <name-of-venv>\Scripts\activate.bat
 # If powershell
 <name-of-venv>\Scripts\activate.ps1
+
+To run FastAPI project (in dev mode):
+fastapi dev <filename>.py
+
+FastAPI gives auto-documentation. To access, type (in the address bar):
+<ip-address>:<port>/docs   # To launch swaggerUI
+<ip-address>:<port>/redoc  # To launch ReDoc
+
